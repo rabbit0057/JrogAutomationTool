@@ -1,0 +1,6 @@
+{
+  "key": "docker-local",
+  "rclass": "local",
+  "packageType": "docker",
+  "xrayIndex": "True"
+}

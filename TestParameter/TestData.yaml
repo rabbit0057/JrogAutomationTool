@@ -1,0 +1,4 @@
+DOCKER_DATA:
+  ARTIFACTORY_URL: "trialy0w7b5.jfrog.io"
+  DOCKER_REPO: "docker-local"
+  SOURCE_IMAGE: "alpine:3.9"

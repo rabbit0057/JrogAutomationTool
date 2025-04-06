@@ -20,8 +20,8 @@ class UI(SeleniumHelpers):
         try:
             self.driver.get(url)
             if url in self.driver.current_url:
-                with allure.step("-- SUCCESS - Able validate url : {}".format(url)):
-                    self.Logger.info("-- SUCCESS - Able validate url : {}".format(url))
+                with allure.step("-- SUCCESS - Able validate to url : {}".format(url)):
+                    self.Logger.info("-- SUCCESS - Able validate to url : {}".format(url))
                     allure.attach(self.driver.get_screenshot_as_png(), name="Passed_Url",
                                   attachment_type=AttachmentType.PNG)
                     assert True

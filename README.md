@@ -89,7 +89,7 @@ export PYTHONPATH=$(pwd)
 # Make Sure Docker daemon is running  
 ```
 ```bash
-# To Clean or generate allure-report foler 
+# To Clean or generate allure-report folder 
 allure generate allure-results -- clean -o allure-report
 ```
 

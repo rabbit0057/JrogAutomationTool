@@ -86,6 +86,9 @@ $env:PYTHONPATH = Get-Location
 export PYTHONPATH=$(pwd)
 ```
 ```bash
+# Make Sure Docker daemon is running  
+```
+```bash
 # To Clean or generate allure-report foler 
 allure generate allure-results -- clean -o allure-report
 ```

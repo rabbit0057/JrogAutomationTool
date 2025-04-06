@@ -78,6 +78,19 @@ cd JrogAutomationTool
 pip install -r requirements.txt
 ```
 ```bash
+# For Window in Powershell
+$env:PYTHONPATH = Get-Location
+```
+```bash
+# For Mac 
+export PYTHONPATH=$(pwd)
+```
+```bash
+# To Clean or generate allure-report foler 
+allure generate allure-results -- clean -o allure-report
+```
+
+```bash
 # To Clean or generate allure-report foler 
 allure generate allure-results -- clean -o allure-report
 ```
